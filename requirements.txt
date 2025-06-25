@@ -1,0 +1,10 @@
+langchain>=0.1.15
+langchain-community>=0.0.21
+openai
+faiss-cpu
+pdfminer.six
+tiktoken
+sqlalchemy
+pypdf
+snetence-transformers
+chromadb
