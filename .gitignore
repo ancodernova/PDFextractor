@@ -1,24 +1,49 @@
-# Logs
-logs
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.db
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Virtual environment
+.env
+venv/
+myenv/
+
+# FAISS index and uploaded files
+uploads/
+faiss_index/
+saved_answers.db
+
+# dotenv and secrets
+.env.*
+
+# -------------------------------
+# ⚛️ React + Vite Frontend
+# -------------------------------
+node_modules/
+dist/
+.vite/
+*.log
+
+# Local dev stuff
 *.local
+.env.local
+.env.development
+.env.production
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Build artifacts
+build/
+coverage/
+.cache/
+.next/
+
+# -------------------------------
+# 💻 OS + Editor Files
+# -------------------------------
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
